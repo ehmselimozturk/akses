@@ -1,0 +1,13 @@
+git clone https://github.com/ehmselimozturk/Sayeks.git
+cd Sayeks/
+sudo su
+chmod u=rwxst SETUP.sh
+
+./SETUP.sh
+
+
+##Tar zip cıkarma komutu
+tar xvzf SETUPVHS.tar.gz
+unzip dosya.zip
+
+###

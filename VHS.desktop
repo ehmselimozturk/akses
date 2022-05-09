@@ -1,0 +1,13 @@
+#!/bin/bash
+
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Terminal=true
+Exec=python3 /home/pi/Desktop/PULSE/test.py
+Comment=Assembler
+Icon=/home/pi/Desktop/PULSE/vhs.png
+Name=VHS
+Name[en]=VHS
+X-KeepTerminal=true
