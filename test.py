@@ -17,10 +17,10 @@ import os
 
 
 ###BASINC ADRESİ###
-address = 0x09
+address = 0x00
 ##########
 button = Button( 23,pull_up = False,bounce_time= None)
-refbutton = Button( 24,pull_up = False,bounce_time= None) 
+refbutton = Button( 27,pull_up = False,bounce_time= None) 
 
 ######Yüzdelik Hata Payi########
 yuzdelik1 = 0
@@ -98,7 +98,7 @@ def main():
     global serino
     print("Uygulama işleme başladı")
     bas=tk.Tk()
-    bas.title("SAYEKS")
+    bas.title("TAKTES")
     bas.geometry('500x500')
     bas.config(bg='#dadadb')
     bas.minsize(800,480)
@@ -732,7 +732,7 @@ def main():
                         
                         gercekbasinc= round((basinclist[0]-acikhavabasinci[0]),4)
                         f = open('log.txt','a')
-                        f.write("SAYEKS TEST SONUCLARI\n\n")
+                        f.write("TAKTES TEST SONUCLARI\n\n")
                         f = open('log.txt','a')
                         f.write("Sayaç Seri Numarası:"+str(serinoliste[0])+"\n\n\n")
                         f = open('log.txt','a')
@@ -869,7 +869,7 @@ def main():
                         pdf.image('/home/pi/vhs.png',0,8,30)
                         pdf.set_xy(30,0)
                         pdf.set_font('Arial', 'B', 15)
-                        pdf.cell(10, 40, 'SAYEKS')
+                        pdf.cell(10, 40, 'TAKTES')
                         
                         #PULSE TARİHLERİ
                         pdf.set_xy(0,10)
